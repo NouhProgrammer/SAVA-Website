@@ -244,6 +244,10 @@ body {
   align-items: stretch;      /* make all boxes same height */
 }
 
+.operation-box img {
+  width:50px;
+}
+
 .operation-section {
   max-width: 1200px;
   margin: 60px auto 40px auto;
@@ -294,3 +298,4 @@ body {
   flex-direction: column;
   justify-content: flex-start; /* content from top */
 }
+
