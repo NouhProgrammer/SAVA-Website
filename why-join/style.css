@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  background-color: #DFF5DF;
+  color: #1a1a1a;
+}
+
+.top-bar {
+  background-color: #C7EAC7;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.hubs-container {
+  max-width: 800px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.hub-box {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  overflow: hidden;
+}
+
+.hub-box:hover {
+  transform: scale(1.01);
+}
+
+.hub-image {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.hub-box h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #2e7d32;
+}
+
+.hub-box ul {
+  padding-left: 20px;
+}
+
+.hub-box li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.about-section {
+  width: 80%;
+  max-width: 900px;
+  margin: 60px auto 40px auto;
+  padding: 30px;
+  background-color: #e7f7e7;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #2c4d2c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.airplane-strip {
+  width: 70vw;
+  max-width: 1200px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.airplane-strip img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.operation-boxes {
+  display: flex;
+  justify-content: center;   /* center the whole group */
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: stretch;      /* make all boxes same height */
+}
+
+.operation-box img {
+  width:50px;
+}
+
+.operation-section {
+  max-width: 1200px;
+  margin: 60px auto 40px auto;
+  padding: 30px 20px; /* add some side padding */
+  background-color: #e7f7e7;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #2c4d2c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.operation-box:hover {
+  transform: translateY(-5px);
+}
+
+.operation-box h3 {
+  font-size: 1.4rem;
+  color: #2c4d2c;
+  margin-bottom: 10px;
+}
+
+.operation-box p {
+  font-size: 1rem;
+  color: #2c4d2c;
+  line-height: 1.4;
+}
+
+.operation-box a {
+  color: inherit;             /* keep text color */
+  text-decoration: none;      /* remove underline */
+  display: block;             /* fill whole box */
+  height: 100%;
+}
+.operation-box a:hover {
+  text-decoration: underline; /* or any hover style */
+}
+
+.operation-box {
+  flex: 1 1 250px;          /* flex-grow, flex-shrink, flex-basis */
+  max-width: 350px;         /* optional max width */
+  background-color: #C7EAC7;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* content from top */
+}
+
